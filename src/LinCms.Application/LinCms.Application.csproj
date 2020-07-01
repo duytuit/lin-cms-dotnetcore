@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AspNet.Security.OAuth.GitHub" Version="3.1.1" />
+    <PackageReference Include="AspNet.Security.OAuth.QQ" Version="3.1.1" />
+    <PackageReference Include="AutoMapper" Version="9.0.0" />
+    <PackageReference Include="DotNetCore.CAP" Version="3.0.4" />
+    <PackageReference Include="MQiniu.Core" Version="1.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LinCms.Application.Contracts\LinCms.Application.Contracts.csproj" />
+    <ProjectReference Include="..\LinCms.Core\LinCms.Core.csproj" />
+  </ItemGroup>
+
+</Project>
